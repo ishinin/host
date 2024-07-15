@@ -1,1 +1,1 @@
-$deletecommand $nomention $if[$varExists[co-owner]==true]$var[co-owner;$getVar[co-owner]]$else$var[co-owner;$botOwnerID]$endif $onlyForIDs[$botOwnerID;$var[co-owner];] $message
+$c[1∆] $deletecommand $nomention $if[$varExists[co-owner]==true]$var[co-owner;$getVar[co-owner]]$else$var[co-owner;$botOwnerID]$endif $onlyForIDs[$botOwnerID;$var[co-owner];] $message
